@@ -26,3 +26,19 @@ let t3 = performance.now();
 console.log(sumNumUpTo2(100000000));
 let t4 = performance.now();
 console.log(`Time Elapsed ${(t4 - t3) / 1000} second`);
+
+/**
+ * 
+ * Javascript function
+ * 
+ * push --> O(1)
+ * pop --> O(1)
+ * shift --> O(n)
+ * unshift --> O(n)
+ * concat --> O(n)
+ * slice --> O(n)
+ * splice --> O(n)
+ * sort --> O(n * log n)
+ * forEach/map/filter/reduce/etc --> O(n)
+ * 
+ **/
